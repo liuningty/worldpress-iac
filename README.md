@@ -6,3 +6,4 @@ For WorldPress, the persistent volume will be automatically provisioned by lever
 
 The whole environment contains a single node native K8S cluster based on CentOS and a sinlge node isilon simulator cluster with Ansible isilon module, isilon CSI plugin and terraform pre-configured.   
 
+![env](https://user-images.githubusercontent.com/57650048/158108873-e25c3e2b-42df-4731-8408-1428b4159d54.JPG)
