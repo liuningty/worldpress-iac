@@ -1,0 +1,44 @@
+---
+- hosts: localhost
+  connection: local
+  vars:
+    onefs_host: "192.168.117.72"
+    port_no: "8080"
+    verify_ssl: False
+    api_user: "root"
+    api_password: "root"
+    name: "ansible_nfs_share_demo"
+    system_access_zone: "System"
+    system_az_path: "/ifs/mysql-nfs"
+    system_az_user: "admin"
+    system_az_group: "admin"
+    wellknown: "wellknown"
+    state_present: "present"
+    state_absent: "absent"
+    description: "share description"
+  tasks:
+
+  - name: Clean up files under NFS directory
+    shell: sshpass -p "{{api_password}}" ssh {{api_user}}@{{onefs_host}} 'rm -rf {{system_az_path}}/*'
+
+  - name: Delete existing NFS export
+    dellemc_isilon_nfs:
+      onefs_host: "{{onefs_host}}"
+      port_no: "{{port_no}}"
+      verify_ssl: "{{verify_ssl}}"
+      api_user: "{{api_user}}"
+      api_password: "{{api_password}}"
+      path: "{{system_az_path}}"
+      state: "{{state_absent}}"
+
+  - name: Delete NFS directory
+    dellemc_isilon_filesystem:
+      onefs_host: "{{onefs_host}}"
+      port_no: "{{port_no}}"
+      verify_ssl: "{{verify_ssl}}"
+      api_user: "{{api_user}}"
+      api_password: "{{api_password}}"
+      path: "{{system_az_path}}"
+      owner:
+        name: "Guest"
+      state: "{{state_absent}}"

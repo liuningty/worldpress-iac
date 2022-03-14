@@ -1,0 +1,1519 @@
+2022-02-13 17:44:05,238 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-02-13 17:44:05,296 dellemc_isilon_filesystem.py INFO : Filesystem ifs/nfs_from_ansible status is 404
+2022-02-13 17:44:05,351 dellemc_isilon_filesystem.py INFO : Unable to get Quota details on path ifs/nfs_from_ansible
+2022-02-13 17:44:05,351 dellemc_isilon_filesystem.py INFO : Creating Filesystem...
+2022-02-13 17:44:05,406 dellemc_isilon_filesystem.py INFO : Attempting to create new FS ifs/nfs_from_ansible
+2022-02-13 17:44:05,451 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-02-13 17:44:06,406 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-02-13 17:44:06,406 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/nfs_from_ansible and access zone: System
+2022-02-13 17:44:06,541 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/nfs_from_ansible and access zone: System not found
+2022-02-13 17:44:06,544 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/nfs_from_ansible'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-02-13 17:44:07,318 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 31 and access zone: System
+2022-02-13 17:44:07,366 dellemc_isilon_nfs.py INFO : changed True
+2022-02-13 17:54:01,773 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-02-13 17:54:01,915 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-02-13 17:54:01,915 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-02-13 17:54:01,915 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-02-13 17:54:02,015 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:2000 and the user ID on the file is UID:2000
+2022-02-13 17:54:02,015 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-02-13 17:54:02,854 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-02-13 17:54:02,855 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/nfs_from_ansible and access zone: System
+2022-02-13 17:54:03,002 dellemc_isilon_nfs.py INFO : No change detected for the NFS Export, returning changed = False
+2022-02-13 17:54:03,002 dellemc_isilon_nfs.py INFO : changed False
+2022-02-13 17:55:50,390 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-02-13 17:55:50,534 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-02-13 17:55:50,534 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-02-13 17:55:50,534 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-02-13 17:55:50,600 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:2000 and the user ID on the file is UID:2000
+2022-02-13 17:55:50,600 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-02-13 17:55:51,439 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-02-13 17:55:51,439 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/nfs_from_ansible and access zone: System
+2022-02-13 17:55:51,623 dellemc_isilon_nfs.py INFO : No change detected for the NFS Export, returning changed = False
+2022-02-13 17:55:51,623 dellemc_isilon_nfs.py INFO : changed False
+2022-02-13 18:05:44,623 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-02-13 18:05:44,731 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-02-13 18:05:44,732 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-02-13 18:05:44,732 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-02-13 18:05:44,808 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:2000 and the user ID on the file is UID:2000
+2022-02-13 18:05:44,809 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-02-13 18:05:45,596 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-02-13 18:05:45,596 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/nfs_from_ansible and access zone: System
+2022-02-13 18:05:45,729 dellemc_isilon_nfs.py INFO : No change detected for the NFS Export, returning changed = False
+2022-02-13 18:05:45,730 dellemc_isilon_nfs.py INFO : changed False
+2022-02-16 16:31:40,889 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-02-16 16:31:41,299 dellemc_isilon_filesystem.py INFO : Filesystem ifs/nfs_from_ansible status is 404
+2022-02-16 16:31:41,354 dellemc_isilon_filesystem.py INFO : Unable to get Quota details on path ifs/nfs_from_ansible
+2022-02-16 16:31:41,354 dellemc_isilon_filesystem.py INFO : Creating Filesystem...
+2022-02-16 16:31:41,432 dellemc_isilon_filesystem.py INFO : Attempting to create new FS ifs/nfs_from_ansible
+2022-02-16 16:31:41,462 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-02-16 16:31:42,494 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-02-16 16:31:42,495 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/nfs_from_ansible and access zone: System
+2022-02-16 16:31:42,749 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/nfs_from_ansible and access zone: System not found
+2022-02-16 16:31:42,752 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/nfs_from_ansible'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-02-16 16:31:44,260 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 36 and access zone: System
+2022-02-16 16:31:44,325 dellemc_isilon_nfs.py INFO : changed True
+2022-02-16 16:48:47,171 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-02-16 16:48:47,321 dellemc_isilon_filesystem.py INFO : Filesystem ifs/nfs_from_ansible status is 404
+2022-02-16 16:48:47,372 dellemc_isilon_filesystem.py INFO : Unable to get Quota details on path ifs/nfs_from_ansible
+2022-02-16 16:48:47,372 dellemc_isilon_filesystem.py INFO : Creating Filesystem...
+2022-02-16 16:48:47,438 dellemc_isilon_filesystem.py INFO : Attempting to create new FS ifs/nfs_from_ansible
+2022-02-16 16:48:47,479 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-02-16 16:48:54,537 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-02-16 16:48:54,537 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/nfs_from_ansible and access zone: System
+2022-02-16 16:48:54,694 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/nfs_from_ansible and access zone: System not found
+2022-02-16 16:48:54,698 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/nfs_from_ansible'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-02-16 16:48:55,616 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 38 and access zone: System
+2022-02-16 16:48:55,684 dellemc_isilon_nfs.py INFO : changed True
+2022-03-03 01:38:35,244 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-03 01:38:35,304 dellemc_isilon_filesystem.py INFO : Filesystem ifs/nfs_from_ansible status is 404
+2022-03-03 01:38:35,357 dellemc_isilon_filesystem.py INFO : Unable to get Quota details on path ifs/nfs_from_ansible
+2022-03-03 01:38:35,358 dellemc_isilon_filesystem.py INFO : Creating Filesystem...
+2022-03-03 01:38:35,406 dellemc_isilon_filesystem.py INFO : Attempting to create new FS ifs/nfs_from_ansible
+2022-03-03 01:38:35,433 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-03 01:38:36,336 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-03 01:38:36,336 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/nfs_from_ansible and access zone: System
+2022-03-03 01:38:36,489 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/nfs_from_ansible and access zone: System not found
+2022-03-03 01:38:36,490 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/nfs_from_ansible'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-03-03 01:38:36,651 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 21 and access zone: System
+2022-03-03 01:38:36,699 dellemc_isilon_nfs.py INFO : changed True
+2022-03-03 01:45:36,019 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-03 01:45:36,019 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/nfs_from_ansible and access zone: System
+2022-03-03 01:45:36,182 dellemc_isilon_nfs.py INFO : Deleting NFS export with path: /ifs/nfs_from_ansible, zone: System and ID: 21
+2022-03-03 01:45:36,388 dellemc_isilon_nfs.py INFO : changed True
+2022-03-03 01:45:37,176 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-03 01:45:37,611 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-03 01:45:37,611 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-03 01:45:37,611 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-03 01:45:37,736 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:1501
+2022-03-03 01:45:37,737 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-03 01:46:01,637 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-03 01:46:01,693 dellemc_isilon_filesystem.py INFO : Filesystem ifs/nfs_from_ansible status is 404
+2022-03-03 01:46:01,731 dellemc_isilon_filesystem.py INFO : Unable to get Quota details on path ifs/nfs_from_ansible
+2022-03-03 01:46:01,731 dellemc_isilon_filesystem.py INFO : Creating Filesystem...
+2022-03-03 01:46:01,800 dellemc_isilon_filesystem.py INFO : Attempting to create new FS ifs/nfs_from_ansible
+2022-03-03 01:46:01,836 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-03 01:46:02,620 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-03 01:46:02,620 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/nfs_from_ansible and access zone: System
+2022-03-03 01:46:02,786 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/nfs_from_ansible and access zone: System not found
+2022-03-03 01:46:02,790 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/nfs_from_ansible'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-03-03 01:46:03,044 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 23 and access zone: System
+2022-03-03 01:46:03,093 dellemc_isilon_nfs.py INFO : changed True
+2022-03-06 21:41:23,172 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-06 21:41:23,206 dellemc_isilon_filesystem.py INFO : Filesystem ifs/mysql-nfs status is 404
+2022-03-06 21:41:23,234 dellemc_isilon_filesystem.py INFO : Unable to get Quota details on path ifs/mysql-nfs
+2022-03-06 21:41:23,234 dellemc_isilon_filesystem.py INFO : Creating Filesystem...
+2022-03-06 21:41:23,375 dellemc_isilon_filesystem.py INFO : Attempting to create new FS ifs/mysql-nfs
+2022-03-06 21:41:23,433 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-06 21:41:24,174 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-06 21:41:24,174 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-06 21:41:24,278 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-06 21:41:24,282 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/mysql-nfs'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-03-06 21:41:37,956 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 33 and access zone: System
+2022-03-06 21:41:38,042 dellemc_isilon_nfs.py INFO : changed True
+2022-03-06 21:46:37,556 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-06 21:46:37,626 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-06 21:46:37,626 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-06 21:46:37,626 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-06 21:46:37,771 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-06 21:46:37,771 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-06 21:46:37,773 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-06 21:46:38,506 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-06 21:46:38,506 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-06 21:46:38,658 dellemc_isilon_nfs.py INFO : No change detected for the NFS Export, returning changed = False
+2022-03-06 21:46:38,659 dellemc_isilon_nfs.py INFO : changed False
+2022-03-06 22:08:18,179 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-06 22:08:18,296 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-06 22:08:18,296 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-06 22:08:18,297 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-06 22:08:18,355 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-06 22:08:18,355 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-06 22:08:18,359 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-06 22:08:19,271 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-06 22:08:19,271 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-06 22:08:19,449 dellemc_isilon_nfs.py INFO : No change detected for the NFS Export, returning changed = False
+2022-03-06 22:08:19,449 dellemc_isilon_nfs.py INFO : changed False
+2022-03-06 22:17:18,107 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-06 22:17:18,176 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-06 22:17:18,176 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-06 22:17:18,176 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-06 22:17:18,234 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-06 22:17:18,234 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-06 22:17:18,236 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-06 22:17:19,054 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-06 22:17:19,054 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-06 22:17:19,271 dellemc_isilon_nfs.py INFO : No change detected for the NFS Export, returning changed = False
+2022-03-06 22:17:19,271 dellemc_isilon_nfs.py INFO : changed False
+2022-03-07 17:26:48,836 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-07 17:26:48,953 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-07 17:26:48,953 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-07 17:26:48,953 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-07 17:26:49,028 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-07 17:26:49,028 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-07 17:26:49,033 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-07 17:26:49,804 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-07 17:26:49,805 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-07 17:26:49,974 dellemc_isilon_nfs.py INFO : No change detected for the NFS Export, returning changed = False
+2022-03-07 17:26:49,974 dellemc_isilon_nfs.py INFO : changed False
+2022-03-07 18:15:08,522 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-07 18:15:08,523 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-07 18:15:08,669 dellemc_isilon_nfs.py INFO : Deleting NFS export with path: /ifs/mysql-nfs, zone: System and ID: 33
+2022-03-07 18:15:08,737 dellemc_isilon_nfs.py INFO : changed True
+2022-03-07 18:15:09,550 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-07 18:15:09,679 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-07 18:15:09,679 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-07 18:15:09,679 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-07 18:15:09,736 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-07 18:15:09,736 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-07 18:15:09,739 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-07 18:15:09,846 dellemc_isilon_filesystem.py ERROR : Deletion of Filesystem ifs/mysql-nfs failed with error:  { errors : [ { code : AEC_FORBIDDEN , message : The directory 'mysql-nfs' is not empty. } ] } 
+2022-03-07 18:16:09,099 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-07 18:16:09,214 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-07 18:16:09,214 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-07 18:16:09,214 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-07 18:16:09,281 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:1501
+2022-03-07 18:16:09,281 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-07 18:16:10,200 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-07 18:16:10,200 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-07 18:16:10,293 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-07 18:16:10,295 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/mysql-nfs'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-03-07 18:16:10,539 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 39 and access zone: System
+2022-03-07 18:16:10,585 dellemc_isilon_nfs.py INFO : changed True
+2022-03-07 18:28:31,911 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-07 18:28:32,027 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-07 18:28:32,027 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-07 18:28:32,027 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-07 18:28:32,110 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-07 18:28:32,111 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-07 18:28:32,115 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-07 18:28:33,011 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-07 18:28:33,012 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-07 18:28:33,174 dellemc_isilon_nfs.py INFO : No change detected for the NFS Export, returning changed = False
+2022-03-07 18:28:33,174 dellemc_isilon_nfs.py INFO : changed False
+2022-03-07 19:22:15,411 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-07 19:22:15,525 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-07 19:22:15,526 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-07 19:22:15,526 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-07 19:22:15,592 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-07 19:22:15,592 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-07 19:22:15,596 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-07 19:22:16,409 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-07 19:22:16,410 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-07 19:22:16,574 dellemc_isilon_nfs.py INFO : No change detected for the NFS Export, returning changed = False
+2022-03-07 19:22:16,574 dellemc_isilon_nfs.py INFO : changed False
+2022-03-07 19:35:57,852 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-07 19:35:57,852 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-07 19:35:58,027 dellemc_isilon_nfs.py INFO : Deleting NFS export with path: /ifs/mysql-nfs, zone: System and ID: 39
+2022-03-07 19:35:58,165 dellemc_isilon_nfs.py INFO : changed True
+2022-03-07 19:35:58,962 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-07 19:35:59,045 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-07 19:35:59,045 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-07 19:35:59,045 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-07 19:35:59,172 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-07 19:35:59,172 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-07 19:35:59,182 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-07 19:35:59,304 dellemc_isilon_filesystem.py ERROR : Deletion of Filesystem ifs/mysql-nfs failed with error:  { errors : [ { code : AEC_FORBIDDEN , message : The directory 'mysql-nfs' is not empty. } ] } 
+2022-03-07 19:49:12,389 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-07 19:49:12,479 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-07 19:49:12,480 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-07 19:49:12,480 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-07 19:49:12,544 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:1501
+2022-03-07 19:49:12,545 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-07 19:49:13,379 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-07 19:49:13,379 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-07 19:49:13,508 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-07 19:49:13,512 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/mysql-nfs'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-03-07 19:49:13,851 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 43 and access zone: System
+2022-03-07 19:49:13,909 dellemc_isilon_nfs.py INFO : changed True
+2022-03-08 15:10:57,355 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 15:10:57,355 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-08 15:10:57,504 dellemc_isilon_nfs.py INFO : Deleting NFS export with path: /ifs/mysql-nfs, zone: System and ID: 43
+2022-03-08 15:10:57,610 dellemc_isilon_nfs.py INFO : changed True
+2022-03-08 15:10:58,870 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 15:10:59,015 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-08 15:10:59,015 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-08 15:10:59,015 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-08 15:10:59,112 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-08 15:10:59,113 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-08 15:10:59,117 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-08 15:10:59,279 dellemc_isilon_filesystem.py ERROR : Deletion of Filesystem ifs/mysql-nfs failed with error:  { errors : [ { code : AEC_FORBIDDEN , message : The directory 'mysql-nfs' is not empty. } ] } 
+2022-03-08 16:07:04,908 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 16:07:04,908 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-08 16:07:05,099 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-08 16:07:05,099 dellemc_isilon_nfs.py INFO : changed False
+2022-03-08 16:07:05,802 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 16:07:05,949 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-08 16:07:05,949 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-08 16:07:05,949 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-08 16:07:06,009 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:1501
+2022-03-08 16:07:06,009 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-08 16:07:06,125 dellemc_isilon_filesystem.py ERROR : Deletion of Filesystem ifs/mysql-nfs failed with error:  { errors : [ { code : AEC_FORBIDDEN , message : The directory 'mysql-nfs' is not empty. } ] } 
+2022-03-08 16:08:57,280 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 16:08:57,281 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-08 16:08:57,438 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-08 16:08:57,439 dellemc_isilon_nfs.py INFO : changed False
+2022-03-08 16:08:58,188 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 16:08:58,311 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-08 16:08:58,311 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-08 16:08:58,311 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-08 16:08:58,384 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:1501
+2022-03-08 16:08:58,384 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-08 16:08:58,513 dellemc_isilon_filesystem.py ERROR : Deletion of Filesystem ifs/mysql-nfs failed with error:  { errors : [ { code : AEC_FORBIDDEN , message : The directory 'mysql-nfs' is not empty. } ] } 
+2022-03-08 16:09:45,279 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 16:09:45,279 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-08 16:09:45,418 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-08 16:09:45,418 dellemc_isilon_nfs.py INFO : changed False
+2022-03-08 16:09:46,186 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 16:09:46,302 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-08 16:09:46,302 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-08 16:09:46,302 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-08 16:09:46,372 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:1501
+2022-03-08 16:09:46,372 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-08 16:09:46,524 dellemc_isilon_filesystem.py ERROR : Deletion of Filesystem ifs/mysql-nfs failed with error:  { errors : [ { code : AEC_FORBIDDEN , message : The directory 'mysql-nfs' is not empty. } ] } 
+2022-03-08 16:13:28,447 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 16:13:28,447 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-08 16:13:28,572 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-08 16:13:28,572 dellemc_isilon_nfs.py INFO : changed False
+2022-03-08 16:13:29,410 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 16:13:29,544 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-08 16:13:29,544 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-08 16:13:29,544 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-08 16:13:29,638 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:1501
+2022-03-08 16:13:29,638 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-08 16:13:29,810 dellemc_isilon_filesystem.py ERROR : Deletion of Filesystem ifs/mysql-nfs failed with error:  { errors : [ { code : AEC_FORBIDDEN , message : The directory 'mysql-nfs' is not empty. } ] } 
+2022-03-08 16:16:27,040 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 16:16:27,040 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-08 16:16:27,186 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-08 16:16:27,186 dellemc_isilon_nfs.py INFO : changed False
+2022-03-08 16:16:28,002 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 16:16:28,115 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-08 16:16:28,116 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-08 16:16:28,116 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-08 16:16:28,500 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:1501
+2022-03-08 16:16:28,501 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-08 16:16:28,757 dellemc_isilon_filesystem.py ERROR : Deletion of Filesystem ifs/mysql-nfs failed with error:  { errors : [ { code : AEC_FORBIDDEN , message : The directory 'mysql-nfs' is not empty. } ] } 
+2022-03-08 16:30:56,797 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 16:30:56,797 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-08 16:30:56,974 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-08 16:30:56,975 dellemc_isilon_nfs.py INFO : changed False
+2022-03-08 16:30:57,776 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 16:30:57,897 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-08 16:30:57,898 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-08 16:30:57,898 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-08 16:30:57,970 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:1501
+2022-03-08 16:30:57,970 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-08 18:10:49,775 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 18:10:49,847 dellemc_isilon_filesystem.py INFO : Filesystem ifs/mysql-nfs status is 404
+2022-03-08 18:10:49,910 dellemc_isilon_filesystem.py INFO : Unable to get Quota details on path ifs/mysql-nfs
+2022-03-08 18:10:49,910 dellemc_isilon_filesystem.py INFO : Creating Filesystem...
+2022-03-08 18:10:49,982 dellemc_isilon_filesystem.py INFO : Attempting to create new FS ifs/mysql-nfs
+2022-03-08 18:10:49,991 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-08 18:10:50,828 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 18:10:50,828 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-08 18:10:50,960 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-08 18:10:50,965 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/mysql-nfs'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-03-08 18:10:51,248 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 48 and access zone: System
+2022-03-08 18:10:51,332 dellemc_isilon_nfs.py INFO : changed True
+2022-03-08 18:15:49,919 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 18:15:49,919 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-08 18:15:50,192 dellemc_isilon_nfs.py INFO : Deleting NFS export with path: /ifs/mysql-nfs, zone: System and ID: 48
+2022-03-08 18:15:50,337 dellemc_isilon_nfs.py INFO : changed True
+2022-03-08 18:15:51,299 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 18:15:51,881 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-08 18:15:51,881 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-08 18:15:51,882 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-08 18:15:51,965 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-08 18:15:51,965 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-08 18:15:51,970 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-08 18:31:56,226 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 18:31:56,305 dellemc_isilon_filesystem.py INFO : Filesystem ifs/mysql-nfs status is 404
+2022-03-08 18:31:56,354 dellemc_isilon_filesystem.py INFO : Unable to get Quota details on path ifs/mysql-nfs
+2022-03-08 18:31:56,354 dellemc_isilon_filesystem.py INFO : Creating Filesystem...
+2022-03-08 18:31:56,425 dellemc_isilon_filesystem.py INFO : Attempting to create new FS ifs/mysql-nfs
+2022-03-08 18:31:56,433 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-08 18:31:57,354 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 18:31:57,354 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-08 18:31:57,843 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-08 18:31:57,848 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/mysql-nfs'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-03-08 18:31:58,219 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 51 and access zone: System
+2022-03-08 18:31:58,304 dellemc_isilon_nfs.py INFO : changed True
+2022-03-08 18:36:09,488 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 18:36:09,488 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-08 18:36:09,654 dellemc_isilon_nfs.py INFO : Deleting NFS export with path: /ifs/mysql-nfs, zone: System and ID: 51
+2022-03-08 18:36:09,743 dellemc_isilon_nfs.py INFO : changed True
+2022-03-08 18:36:10,550 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 18:36:10,690 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-08 18:36:10,690 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-08 18:36:10,690 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-08 18:36:10,768 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-08 18:36:10,769 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-08 18:36:10,774 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-08 19:19:13,779 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 19:19:13,824 dellemc_isilon_filesystem.py INFO : Filesystem ifs/mysql-nfs status is 404
+2022-03-08 19:19:13,885 dellemc_isilon_filesystem.py INFO : Unable to get Quota details on path ifs/mysql-nfs
+2022-03-08 19:19:13,885 dellemc_isilon_filesystem.py INFO : Creating Filesystem...
+2022-03-08 19:19:13,969 dellemc_isilon_filesystem.py INFO : Attempting to create new FS ifs/mysql-nfs
+2022-03-08 19:19:14,011 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-08 19:19:15,080 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 19:19:15,080 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-08 19:19:15,262 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-08 19:19:15,266 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/mysql-nfs'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-03-08 19:19:15,565 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 53 and access zone: System
+2022-03-08 19:19:15,656 dellemc_isilon_nfs.py INFO : changed True
+2022-03-08 20:11:58,911 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 20:11:58,912 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-08 20:11:59,090 dellemc_isilon_nfs.py INFO : Deleting NFS export with path: /ifs/mysql-nfs, zone: System and ID: 53
+2022-03-08 20:11:59,232 dellemc_isilon_nfs.py INFO : changed True
+2022-03-08 20:12:00,501 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 20:12:00,668 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-08 20:12:00,668 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-08 20:12:00,668 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-08 20:12:00,765 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-08 20:12:00,765 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-08 20:12:00,772 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-08 20:30:15,055 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 20:30:15,120 dellemc_isilon_filesystem.py INFO : Filesystem ifs/mysql-nfs status is 404
+2022-03-08 20:30:15,185 dellemc_isilon_filesystem.py INFO : Unable to get Quota details on path ifs/mysql-nfs
+2022-03-08 20:30:15,185 dellemc_isilon_filesystem.py INFO : Creating Filesystem...
+2022-03-08 20:30:15,273 dellemc_isilon_filesystem.py INFO : Attempting to create new FS ifs/mysql-nfs
+2022-03-08 20:30:15,285 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-08 20:30:16,322 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-08 20:30:16,322 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-08 20:30:16,432 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-08 20:30:16,436 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/mysql-nfs'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-03-08 20:30:16,686 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 55 and access zone: System
+2022-03-08 20:30:16,739 dellemc_isilon_nfs.py INFO : changed True
+2022-03-10 17:15:55,159 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-10 17:15:55,160 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-10 17:15:55,341 dellemc_isilon_nfs.py INFO : Deleting NFS export with path: /ifs/mysql-nfs, zone: System and ID: 55
+2022-03-10 17:15:55,500 dellemc_isilon_nfs.py INFO : changed True
+2022-03-10 17:15:56,378 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-10 17:15:56,504 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-10 17:15:56,504 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-10 17:15:56,504 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-10 17:15:56,568 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-10 17:15:56,568 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-10 17:15:56,573 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-10 18:01:48,709 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-10 18:01:48,761 dellemc_isilon_filesystem.py INFO : Filesystem ifs/mysql-nfs status is 404
+2022-03-10 18:01:48,823 dellemc_isilon_filesystem.py INFO : Unable to get Quota details on path ifs/mysql-nfs
+2022-03-10 18:01:48,823 dellemc_isilon_filesystem.py INFO : Creating Filesystem...
+2022-03-10 18:01:48,944 dellemc_isilon_filesystem.py INFO : Attempting to create new FS ifs/mysql-nfs
+2022-03-10 18:01:48,954 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-10 18:01:49,851 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-10 18:01:49,851 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-10 18:01:50,097 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-10 18:01:50,103 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/mysql-nfs'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-03-10 18:01:50,342 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 57 and access zone: System
+2022-03-10 18:01:50,390 dellemc_isilon_nfs.py INFO : changed True
+2022-03-10 18:05:39,329 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-10 18:05:39,329 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-10 18:05:39,457 dellemc_isilon_nfs.py INFO : Deleting NFS export with path: /ifs/mysql-nfs, zone: System and ID: 57
+2022-03-10 18:05:39,636 dellemc_isilon_nfs.py INFO : changed True
+2022-03-10 18:05:41,002 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-10 18:05:41,181 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-10 18:05:41,181 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-10 18:05:41,181 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-10 18:05:41,287 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-10 18:05:41,287 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-10 18:05:41,292 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-10 19:53:56,452 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-10 19:53:56,493 dellemc_isilon_filesystem.py INFO : Filesystem ifs/mysql-nfs status is 404
+2022-03-10 19:53:56,522 dellemc_isilon_filesystem.py INFO : Unable to get Quota details on path ifs/mysql-nfs
+2022-03-10 19:53:56,522 dellemc_isilon_filesystem.py INFO : Creating Filesystem...
+2022-03-10 19:53:56,557 dellemc_isilon_filesystem.py INFO : Attempting to create new FS ifs/mysql-nfs
+2022-03-10 19:53:56,587 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-10 19:53:57,307 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-10 19:53:57,307 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-10 19:53:57,393 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-10 19:53:57,395 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/mysql-nfs'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-03-10 19:53:57,529 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 59 and access zone: System
+2022-03-10 19:53:57,574 dellemc_isilon_nfs.py INFO : changed True
+2022-03-10 19:56:54,543 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-10 19:56:54,544 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-10 19:56:54,643 dellemc_isilon_nfs.py INFO : Deleting NFS export with path: /ifs/mysql-nfs, zone: System and ID: 59
+2022-03-10 19:56:54,724 dellemc_isilon_nfs.py INFO : changed True
+2022-03-10 19:56:55,416 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-10 19:56:55,483 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-10 19:56:55,483 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-10 19:56:55,483 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-10 19:56:55,544 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-10 19:56:55,544 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-10 19:56:55,547 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-10 20:32:45,751 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-10 20:32:45,787 dellemc_isilon_filesystem.py INFO : Filesystem ifs/mysql-nfs status is 404
+2022-03-10 20:32:45,817 dellemc_isilon_filesystem.py INFO : Unable to get Quota details on path ifs/mysql-nfs
+2022-03-10 20:32:45,817 dellemc_isilon_filesystem.py INFO : Creating Filesystem...
+2022-03-10 20:32:45,853 dellemc_isilon_filesystem.py INFO : Attempting to create new FS ifs/mysql-nfs
+2022-03-10 20:32:45,877 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-10 20:32:46,586 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-10 20:32:46,586 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-10 20:32:46,676 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-10 20:32:46,677 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/mysql-nfs'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-03-10 20:32:46,838 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 61 and access zone: System
+2022-03-10 20:32:46,883 dellemc_isilon_nfs.py INFO : changed True
+2022-03-10 20:35:26,594 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-10 20:35:26,594 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-10 20:35:26,688 dellemc_isilon_nfs.py INFO : Deleting NFS export with path: /ifs/mysql-nfs, zone: System and ID: 61
+2022-03-10 20:35:26,778 dellemc_isilon_nfs.py INFO : changed True
+2022-03-10 20:35:27,425 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-10 20:35:27,489 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-10 20:35:27,489 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-10 20:35:27,490 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-10 20:35:27,564 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-10 20:35:27,564 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-10 20:35:27,566 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-11 02:56:24,152 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-11 02:56:24,192 dellemc_isilon_filesystem.py INFO : Filesystem ifs/mysql-nfs status is 404
+2022-03-11 02:56:24,221 dellemc_isilon_filesystem.py INFO : Unable to get Quota details on path ifs/mysql-nfs
+2022-03-11 02:56:24,221 dellemc_isilon_filesystem.py INFO : Creating Filesystem...
+2022-03-11 02:56:24,257 dellemc_isilon_filesystem.py INFO : Attempting to create new FS ifs/mysql-nfs
+2022-03-11 02:56:24,284 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-11 02:56:24,951 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-11 02:56:24,951 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-11 02:56:25,035 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-11 02:56:25,036 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/mysql-nfs'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-03-11 02:56:25,171 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 63 and access zone: System
+2022-03-11 02:56:25,215 dellemc_isilon_nfs.py INFO : changed True
+2022-03-11 02:59:09,129 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-11 02:59:09,129 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-11 02:59:09,223 dellemc_isilon_nfs.py INFO : Deleting NFS export with path: /ifs/mysql-nfs, zone: System and ID: 63
+2022-03-11 02:59:09,306 dellemc_isilon_nfs.py INFO : changed True
+2022-03-11 02:59:09,974 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-11 02:59:10,041 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-11 02:59:10,041 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-11 02:59:10,041 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-11 02:59:10,098 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-11 02:59:10,098 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-11 02:59:10,100 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-11 03:34:47,171 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-11 03:34:47,218 dellemc_isilon_filesystem.py INFO : Filesystem ifs/mysql-nfs status is 404
+2022-03-11 03:34:47,250 dellemc_isilon_filesystem.py INFO : Unable to get Quota details on path ifs/mysql-nfs
+2022-03-11 03:34:47,250 dellemc_isilon_filesystem.py INFO : Creating Filesystem...
+2022-03-11 03:34:47,318 dellemc_isilon_filesystem.py INFO : Attempting to create new FS ifs/mysql-nfs
+2022-03-11 03:34:47,374 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-11 03:34:48,109 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-11 03:34:48,109 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-11 03:34:48,194 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-11 03:34:48,196 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/mysql-nfs'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-03-11 03:34:48,329 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 65 and access zone: System
+2022-03-11 03:34:48,376 dellemc_isilon_nfs.py INFO : changed True
+2022-03-11 03:37:40,226 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-11 03:37:40,228 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-11 03:37:40,371 dellemc_isilon_nfs.py INFO : Deleting NFS export with path: /ifs/mysql-nfs, zone: System and ID: 65
+2022-03-11 03:37:40,470 dellemc_isilon_nfs.py INFO : changed True
+2022-03-11 03:37:41,172 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-11 03:37:41,239 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-11 03:37:41,239 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-11 03:37:41,239 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-11 03:37:41,298 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-11 03:37:41,298 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-11 03:37:41,300 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-11 04:07:38,700 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-11 04:07:38,735 dellemc_isilon_filesystem.py INFO : Filesystem ifs/mysql-nfs status is 404
+2022-03-11 04:07:38,764 dellemc_isilon_filesystem.py INFO : Unable to get Quota details on path ifs/mysql-nfs
+2022-03-11 04:07:38,764 dellemc_isilon_filesystem.py INFO : Creating Filesystem...
+2022-03-11 04:07:38,800 dellemc_isilon_filesystem.py INFO : Attempting to create new FS ifs/mysql-nfs
+2022-03-11 04:07:38,826 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-11 04:07:39,836 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-11 04:07:39,836 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-11 04:07:39,926 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-11 04:07:39,927 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/mysql-nfs'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-03-11 04:07:40,088 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 67 and access zone: System
+2022-03-11 04:07:40,134 dellemc_isilon_nfs.py INFO : changed True
+2022-03-11 04:10:08,336 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-11 04:10:08,337 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-11 04:10:08,430 dellemc_isilon_nfs.py INFO : Deleting NFS export with path: /ifs/mysql-nfs, zone: System and ID: 67
+2022-03-11 04:10:08,512 dellemc_isilon_nfs.py INFO : changed True
+2022-03-11 04:10:09,323 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-11 04:10:09,389 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-11 04:10:09,390 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-11 04:10:09,390 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-11 04:10:09,447 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-11 04:10:09,447 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-11 04:10:09,450 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-11 04:19:26,616 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-11 04:19:26,651 dellemc_isilon_filesystem.py INFO : Filesystem ifs/mysql-nfs status is 404
+2022-03-11 04:19:26,679 dellemc_isilon_filesystem.py INFO : Unable to get Quota details on path ifs/mysql-nfs
+2022-03-11 04:19:26,679 dellemc_isilon_filesystem.py INFO : Creating Filesystem...
+2022-03-11 04:19:26,715 dellemc_isilon_filesystem.py INFO : Attempting to create new FS ifs/mysql-nfs
+2022-03-11 04:19:26,740 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-11 04:19:27,541 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-11 04:19:27,541 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-11 04:19:27,629 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-11 04:19:27,631 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/mysql-nfs'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-03-11 04:19:27,763 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 69 and access zone: System
+2022-03-11 04:19:27,809 dellemc_isilon_nfs.py INFO : changed True
+2022-03-11 04:21:54,937 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-11 04:21:54,937 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-11 04:21:55,030 dellemc_isilon_nfs.py INFO : Deleting NFS export with path: /ifs/mysql-nfs, zone: System and ID: 69
+2022-03-11 04:21:55,098 dellemc_isilon_nfs.py INFO : changed True
+2022-03-11 04:21:56,084 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-11 04:21:56,151 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-11 04:21:56,151 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-11 04:21:56,151 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-11 04:21:56,211 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-11 04:21:56,211 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-11 04:21:56,213 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
+2022-03-13 20:55:53,957 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-13 20:55:54,132 dellemc_isilon_filesystem.py INFO : Filesystem ifs/mysql-nfs status is 404
+2022-03-13 20:55:54,219 dellemc_isilon_filesystem.py INFO : Unable to get Quota details on path ifs/mysql-nfs
+2022-03-13 20:55:54,220 dellemc_isilon_filesystem.py INFO : Creating Filesystem...
+2022-03-13 20:55:54,312 dellemc_isilon_filesystem.py INFO : Attempting to create new FS ifs/mysql-nfs
+2022-03-13 20:55:54,383 dellemc_isilon_filesystem.py INFO : Getting filesystem details..
+2022-03-13 20:55:55,211 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-13 20:55:55,211 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-13 20:55:55,368 dellemc_isilon_nfs.py INFO : NFS Export for given path: /ifs/mysql-nfs and access zone: System not found
+2022-03-13 20:55:55,370 dellemc_isilon_nfs.py INFO : Creating NFS export with parameters:nfs_export={'all_dirs': None,
+ 'block_size': None,
+ 'can_set_time': None,
+ 'case_insensitive': None,
+ 'case_preserving': None,
+ 'chown_restricted': None,
+ 'clients': None,
+ 'commit_asynchronous': None,
+ 'description': None,
+ 'directory_transfer_size': None,
+ 'encoding': None,
+ 'link_max': None,
+ 'map_all': None,
+ 'map_failure': None,
+ 'map_full': None,
+ 'map_lookup_uid': None,
+ 'map_non_root': None,
+ 'map_retry': None,
+ 'map_root': None,
+ 'max_file_size': None,
+ 'name_max_size': None,
+ 'no_truncate': None,
+ 'paths': ['/ifs/mysql-nfs'],
+ 'read_only': None,
+ 'read_only_clients': None,
+ 'read_transfer_max_size': None,
+ 'read_transfer_multiple': None,
+ 'read_transfer_size': None,
+ 'read_write_clients': None,
+ 'readdirplus': None,
+ 'readdirplus_prefetch': None,
+ 'return_32bit_file_ids': None,
+ 'root_clients': None,
+ 'security_flavors': None,
+ 'setattr_asynchronous': None,
+ 'snapshot': None,
+ 'symlinks': None,
+ 'time_delta': None,
+ 'write_datasync_action': None,
+ 'write_datasync_reply': None,
+ 'write_filesync_action': None,
+ 'write_filesync_reply': None,
+ 'write_transfer_max_size': None,
+ 'write_transfer_multiple': None,
+ 'write_transfer_size': None,
+ 'write_unstable_action': None,
+ 'write_unstable_reply': None,
+ 'zone': 'System'}
+2022-03-13 20:55:55,616 dellemc_isilon_nfs.py INFO : Getting NFS export details for id: 71 and access zone: System
+2022-03-13 20:55:55,692 dellemc_isilon_nfs.py INFO : changed True
+2022-03-13 21:02:48,058 dellemc_isilon_nfs.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-13 21:02:48,059 dellemc_isilon_nfs.py INFO : Getting NFS export details for path: /ifs/mysql-nfs and access zone: System
+2022-03-13 21:02:48,176 dellemc_isilon_nfs.py INFO : Deleting NFS export with path: /ifs/mysql-nfs, zone: System and ID: 71
+2022-03-13 21:02:48,295 dellemc_isilon_nfs.py INFO : changed True
+2022-03-13 21:02:49,053 dellemc_isilon_filesystem.py INFO : Got python SDK instance for provisioning on Isilon 
+2022-03-13 21:02:49,138 dellemc_isilon_filesystem.py INFO : Determining if the ACLs are modified..
+2022-03-13 21:02:49,138 dellemc_isilon_filesystem.py INFO : Determining if Quota is modified...
+2022-03-13 21:02:49,138 dellemc_isilon_filesystem.py INFO : Determining if owner is modified..
+2022-03-13 21:02:49,198 dellemc_isilon_filesystem.py INFO : The user ID fetched from playbook is UID:1501 and the user ID on the file is UID:999
+2022-03-13 21:02:49,199 dellemc_isilon_filesystem.py INFO : Modifying owner..
+2022-03-13 21:02:49,203 dellemc_isilon_filesystem.py INFO : Deleting Filesystem...
